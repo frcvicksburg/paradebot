@@ -16,11 +16,10 @@ import edu.wpi.first.wpilibj.DigitalInput;
  * Subsystem - Do your thing!
  */
 public class DriveTrain extends Subsystem {
-  DigitalInput extMotor = new DigitalInput(1);
-  //We create a variable name for each Motor L1,L2,R1,R2
-  private Spark leftMotor1 = new Spark(RobotMap.MOTOR_LEFT_1_ID);
-  private Spark rightMotor1 = new Spark(RobotMap.MOTOR_RIGHT_1_ID);
-
+  //NEW DRIVE MOTORS (Uses Talon Controllers)
+  private Talon leftMotor1 = new Talon(RobotMap.MOTOR_LEFT_1_ID);
+  private Talon rightMotor1 = new Talon(RobotMap.MOTOR_RIGHT_1_ID);
+  
   // Put methods for controlling this subsystem
   // here. Call these from Commands.
 
