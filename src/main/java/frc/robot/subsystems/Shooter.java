@@ -25,7 +25,8 @@ public class Shooter extends Subsystem {
   public void initDefaultCommand() {
    setDefaultCommand(new TankDrive());
   }
-
+  
+//We need some sort of check for the limit switch so we know when the flap is fully extended/fully retracted
   public void setLeftMotors(double speed) {
     leftShooter1.set(speed);
   }
