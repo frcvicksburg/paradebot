@@ -20,7 +20,8 @@ public class RobotMap {
     public static final int MOTOR_LEFT_1_ID = 0;
     public static final int MOTOR_RIGHT_1_ID = 1;
   //Shooter Motors
-    //YOU FILL THIS IN (same as above) except...
+    public static final int SHOOTER_LEFT_1_ID = 2;
+    public static final int SHOOTER_RIGHT_1_ID = 3;
   
   //Controllers
     public static final int DRIVER_CONTROLLER_L = 0;
