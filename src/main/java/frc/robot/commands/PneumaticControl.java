@@ -33,7 +33,7 @@ public class PneumaticControl extends Command {
     return false;
   }
 
-  //Kill Motors When isFinished() returns true
+  //Kill Pneumatics When isFinished() returns true
   @Override
   protected void end() {
     Robot.PneumaticTest.set(0);
